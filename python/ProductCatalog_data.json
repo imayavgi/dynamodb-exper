@@ -1,0 +1,53 @@
+[
+	{
+	    "Id": 201 ,
+	    "Title": "Book 101 Title" ,
+	    "ISBN": "111-1111111111" ,
+	    "Authors": [ "Author1"  ] ,
+	    "Price":  2 ,
+	    "Dimensions": "8.5 x 11.0 x 0.5" ,
+	    "PageCount": 500 ,
+	    "InPublication": true ,
+	    "ProductCategory": "Book" ,
+	    "reviews" : { "reviewEntries" : [] }
+	},
+	{
+	    "Id": 102 ,
+	    "Title": "Book 102 Title" ,
+	    "ISBN": "222-2222222222" ,
+	    "Authors": [  "Author1" ,  "Author2"  ] ,
+	    "Price": 20 ,
+	    "Dimensions": "8.5 x 11.0 x 0.8" ,
+	    "PageCount": 600 ,
+	    "InPublication":  true ,
+	    "ProductCategory": "Book" ,
+	    "reviews" : { "reviewEntries" : [] }
+	},
+	{
+	    "Id": 401 ,
+	    "Title": "Book 401 Title" ,
+	    "ISBN": "123-45678782" ,
+	    "Authors": [  "SomeOne" ,  "Something"  ] ,
+	    "Price": 19.99 ,
+	    "Dimensions": "8.5 x 11.0 x 0.2" ,
+	    "PageCount": 210 ,
+	    "InPublication":  true ,
+	    "ProductCategory": "Book" ,
+	    "reviews" : {
+		"reviewEntries" : [
+			{
+				"reviewer" : "Imaya",
+				"reviewedOn" : "2017-02-25",
+				"reviewText" : "Very good book",
+				"reviewRank" : "FOUR"
+			},
+			{
+				"reviewer" : "Chitra",
+				"reviewedOn" : "2016-02-24",
+				"reviewText" : "Very bad book",
+				"reviewRank" : "ONE"
+			}
+		]
+	    }
+	}
+]
